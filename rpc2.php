@@ -1,5 +1,7 @@
 <?php
 
+echo "Bienvenue dans ce jeu de Chifoumi !\nVous jouez contre l'ordinateur.\nMerci de choisir pierre, feuille ou ciseaux.\n";
+
 function test (){ //permet de choisir un nombre au hasard entre 0 et 2
     $numbers = range(0, 2);
     shuffle($numbers);
